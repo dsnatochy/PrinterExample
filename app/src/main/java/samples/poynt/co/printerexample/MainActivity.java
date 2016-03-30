@@ -91,7 +91,24 @@ public class MainActivity extends Activity {
                 body.add(newLine("Casa Orozco, Dublin, CA"));
                 body.add(newLine(".................."));
                 body.add(newLine("Coupon#: 1234-5678"));
-                body.add(newLine("  Powered by Riiwards"));
+                body.add(newLine(" Check-in REWARD  "));
+                body.add(newLine(""));
+                body.add(newLine("FREE Reg. 1/2 Order"));
+                body.add(newLine("Nachos or CHEESE"));
+                body.add(newLine("Quesadilla with min."));
+                body.add(newLine("$ 15 bill."));
+                body.add(newLine(".................."));
+                body.add(newLine("John Doe"));
+                body.add(newLine("BD: May-5, AN: Aug-4"));
+                body.add(newLine("john.doe@gmail.com"));
+                body.add(newLine("Visit #23"));
+                body.add(newLine("Member since: 15 June 2013"));
+                body.add(newLine(".................."));
+                body.add(newLine("Apr-5-2013 3:25 PM"));
+                body.add(newLine("Casa Orozco, Dublin, CA"));
+                body.add(newLine(".................."));
+                body.add(newLine("Coupon#: 1234-5678"));
+                body.add(newLine("  Powered by Poynt"));
                 printedReceipt.setBody(body);
 
                 String printJobId = UUID.randomUUID().toString();
